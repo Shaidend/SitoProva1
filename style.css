@@ -232,10 +232,13 @@ body{
 }
 
 @media (max-width: 575.98px) {
+    .html{
+        overflow-x: hidden;
+    }
     /* Navbar */
     .navbar{
         margin-left: 0px;
-        width: 150%;
+        width: 100%;
     }
     #navbarNav.show {
         width: 100%;
@@ -249,30 +252,31 @@ body{
       }
 
     .navbar-brand{
-        font-size: 48px;
+        font-size: 30px;
     }
     .navbar-toggler{
-        font-size: 35px;
+        font-size: 25px;
     }
     
     .nav-item{
-        margin-left: -470px;
+        margin-left: -290px;
     }
 
     /* Description */
 
     .rowDescription {
         flex-direction: column-reverse;
+        margin-left: -190px;
     }
     .foto{
         width: 80%;
-        margin-left: 120px;
+        margin-left: 140px;
     }
     .title{
         width: 100%;
         margin-left: 90px;
-        margin-top: 45px;
-        font-size: 25px;
+        margin-top: 50px;
+        font-size: 20px;
     }
     .name{
         width: 100%;
@@ -280,18 +284,18 @@ body{
     }
     .name2{
         width: 180%;
-        margin-left: -130px;
-        font-size: 57px;
+        margin-left: -200px;
+        font-size: 48px;
     }
     .description{
-        width: 125%;
-        margin-left: 50px;
+        width: 80%;
+        margin-left: 135px;
     }
 
     .btn{
-        width: 120%;
+        width: 70%;
         height: 130%;
-        margin-left: -15px;
+        margin-left: -10px;
     }
     .button-container{
         margin-top: 25px;
@@ -299,7 +303,7 @@ body{
     }
     .detailsContainer{
         flex-direction: column;
-        margin-left: -180px;
+        margin-left: -300px;
     }
     .number{
         font-size: 48px;
@@ -309,5 +313,86 @@ body{
         width: 50%;
         margin-left: -85px;
     }
+}
+
+/*
+
+-- Navbar --
+.navbar{
+    margin-left: 0px;
+    width: 150%;
+}
+#navbarNav.show {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 
 }
+#navbarNav {
+    transition: all -1s ease-in-out;
+  }
+
+.navbar-brand{
+    font-size: 48px;
+}
+.navbar-toggler{
+    font-size: 35px;
+}
+
+.nav-item{
+    margin-left: -470px;
+}
+
+-- Description --
+
+.rowDescription {
+    flex-direction: column-reverse;
+}
+.foto{
+    width: 80%;
+    margin-left: 120px;
+}
+.title{
+    width: 100%;
+    margin-left: 90px;
+    margin-top: 45px;
+    font-size: 25px;
+}
+.name{
+    width: 100%;
+    margin-left: 85px;
+}
+.name2{
+    width: 180%;
+    margin-left: -130px;
+    font-size: 57px;
+}
+.description{
+    width: 125%;
+    margin-left: 50px;
+}
+
+.btn{
+    width: 120%;
+    height: 130%;
+    margin-left: -15px;
+}
+.button-container{
+    margin-top: 25px;
+    margin-left: 180px;
+}
+.detailsContainer{
+    flex-direction: column;
+    margin-left: -180px;
+}
+.number{
+    font-size: 48px;
+}
+.write{
+    font-size: 20px;
+    width: 50%;
+    margin-left: -85px;
+}
+
+*/
