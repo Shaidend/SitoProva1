@@ -232,9 +232,6 @@ body{
 }
 
 @media (max-width: 575.98px) {
-    .html{
-        overflow-x: hidden;
-    }
     /* Navbar */
     .navbar{
         margin-left: 0px;
@@ -269,7 +266,7 @@ body{
         margin-left: -190px;
     }
     .foto{
-        width: 80%;
+        width: 75%;
         margin-left: 140px;
     }
     .title{
